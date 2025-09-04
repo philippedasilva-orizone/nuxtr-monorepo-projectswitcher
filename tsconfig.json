@@ -1,0 +1,16 @@
+// filepath: /Users/philippedasilva/Orizone.io/ori/extensions/nuxtr-monorepo-projectswitcher/tsconfig.json
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2020",
+    "outDir": "out",
+    "lib": ["ES2020"],
+    "sourceMap": true,
+    "rootDir": "src",
+    "strict": true,
+    "moduleResolution": "node",  // Add this for better module resolution
+    "esModuleInterop": true,     // Add this for import compatibility
+    "skipLibCheck": true         // Add this to skip type checking of declaration files
+  },
+  "exclude": ["node_modules", ".vscode-test"]
+}
